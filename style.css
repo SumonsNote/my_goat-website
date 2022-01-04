@@ -21,7 +21,7 @@ p {
 .tag-h1-color {
   color: #ffc000;
 }
-section {
+.flexible-container {
   display: flex;
   padding-bottom: 150px;
 }
@@ -56,6 +56,7 @@ section {
   text-align: center;
   margin-right: 400px;
   margin-left: 400px;
+  margin-bottom: 100px;
   font-weight: 300;
   color: white;
   border-radius: 5px;
@@ -81,6 +82,30 @@ section {
   background-image: url(img/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+}
+.goat-story-area {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.goat-story {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 50px gray;
+  padding: 15px;
+  border-radius: 8px;
+}
+#left-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato) 20;
+}
+#right-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan) 20;
+}
+.text-align {
+  text-align: center;
 }
 footer p {
   text-align: center;
