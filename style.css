@@ -107,6 +107,35 @@ p {
 .text-align {
   text-align: center;
 }
+.link-button-story2 {
+  background: rgb(26, 106, 139);
+  background: linear-gradient(
+    153deg,
+    rgba(26, 106, 139, 1) 13%,
+    rgba(45, 191, 221, 1) 41%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(9, 9, 121, 1) 100%
+  );
+  color: white;
+  padding: 5px 20px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.link-button-story1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+  padding: 5px 20px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 7px;
+}
 footer p {
   text-align: center;
 }
