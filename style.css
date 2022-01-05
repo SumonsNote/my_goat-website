@@ -46,10 +46,6 @@ p {
   font-weight: 700;
   border-radius: 10px;
 }
-.img-section {
-  width: 100%;
-  display: flex;
-}
 .goat-images img {
   width: 310px;
   box-shadow: -6px -11px 15px 0px grey;
